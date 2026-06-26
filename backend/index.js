@@ -34,6 +34,10 @@ connectDB()
       app.listen(port, () => {
           console.log(`Server started at ${port} `);
       });
+      // Express app me ye line add karein
+app.get('/', (req, res) => {
+    res.send('Backend is running successfully!');
+});
   })
   .catch((err) => {
       console.error("Database connection failed! ", err);
