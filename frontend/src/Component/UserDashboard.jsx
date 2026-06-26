@@ -1,0 +1,11 @@
+import Nav from "./Nav"
+function UserDashboard() {
+  return (
+    <div className='w-full min-h-screen bg-[#fff9f6] flex flex-col items-center '>
+        user
+      <Nav/>
+    </div>
+  )
+}
+
+export default UserDashboard
